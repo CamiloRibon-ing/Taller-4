@@ -1,0 +1,125 @@
+body{
+    background-color: #8967B3;
+font-family: sans-serif;
+
+}
+.contenedor_prin {
+
+    display: grid;
+    gap: 10px;
+    
+    grid-template-areas: 'item-1 item-2 item-3 item-3 item-4 '
+                'item-1 item-2 item-3 item-3 item-4'
+                'item-5 item-2 item-3 item-3 item-4'
+                'item-5 item-6 item-6 item-7 item-8'
+                'item-9 item-6 item-6 item-10 item-8'
+                'item-11 item-11 item-12 item-10 item-13'
+                'item-11 item-11 item-12 item-14 item-14';
+    
+    grid-template-columns: repeat(5 , 20%);
+    grid-template-rows: repeat(7 , 150px);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+    
+}
+
+.item-1{
+
+    background-color: #FCDE70;
+    grid-area: item-1;
+    justify-content: center;
+
+}
+
+.item-2 {
+    /*twiter*/
+    background-color: gray;
+    color: beige;
+    grid-area: item-2;
+    
+}
+
+.item-3 {
+    background-color: aquamarine;
+    grid-area: item-3;
+
+}
+
+.item-4 {
+    grid-area: item-4;
+
+}
+
+.item-5 {
+    background-color: gray;
+    color: beige;
+    grid-area: item-5;
+
+}
+
+.item-6 {
+    background-color: #FCDE70;
+    grid-area: item-6;
+}
+
+.item-7 {
+    background-color: crimson;
+    grid-area: item-7;
+
+}
+
+.item-8 {
+    background-color: gray;
+    color: beige;
+    grid-area: item-8;
+}
+
+.item-9 {
+    grid-area: item-9;
+    background-color: aqua;
+
+}
+
+.item-10 {
+    background-color: gray;
+    grid-area: item-10;
+
+}
+
+.item-11 {
+    grid-area: item-11;
+}
+
+.item-12 {
+    background-color: gray;
+    grid-area: item-12;
+}
+
+.item-13 {
+    background-color: chartreuse;
+    grid-area: item-13;
+}
+
+.item-14 {
+    background-color: gray;
+    grid-area: item-14;
+
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+h1{
+    text-align: center;
+}
+    
+
+div{
+    justify-content: center;
+    margin:0;
+}
